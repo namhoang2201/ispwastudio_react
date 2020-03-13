@@ -1,0 +1,63 @@
+#root {
+  .App {
+    .container {
+      .row {
+        .title {
+          margin-top: 30px;
+          padding: 40px;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 40px;
+          font-weight: 700;
+          background-color: gainsboro;
+          border-radius: 20px;
+        }
+        .form-check {
+          margin-top: 30px;
+          text-align: center;
+          padding: 30px;
+          font-size: 30px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          label {
+            font-weight: 700;
+            display: inline-flex;
+          }
+          input {
+            display: inline-flex;
+            width: 600px;
+            font-style: italic;
+            font-weight: 700;
+            border-radius: 22px;
+            border-color: black;
+            padding: 10px 20px;
+            outline: unset;
+          }
+          button {
+            display: inline-flex;
+            padding: 17px 49px;
+            font-size: 25px;
+            border-radius: 20px;
+            outline: unset;
+          }
+          button:active{
+              background-color: deeppink;
+          }
+        }
+        .result {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 700;
+        }
+        .true{
+          background-color: green;
+        }
+        .false{
+          background-color: red;
+        }
+      }
+    }
+
+  }
+}
